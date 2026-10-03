@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>GGtiers - Profil gracza</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <h1>GGtiers</h1>
+
+    <nav>
+
+        <a href="index.html">
+            Home
+        </a>
+
+        <a href="index.html">
+            Tierlist
+        </a>
+
+    </nav>
+
+</header>
+
+
+<main class="player-profile-page">
+
+    <div class="player-profile">
+
+        <!-- ==============================
+             NAGŁÓWEK PROFILU
+        =============================== -->
+
+        <div class="player-profile-header">
+
+            <div>
+
+                <p class="profile-label">
+                    PLAYER PROFILE
+                </p>
+
+                <h2 id="playerName">
+                    Ładowanie...
+                </h2>
+
+            </div>
+
+            <div
+                id="playerPlace"
+                class="profile-place"
+            >
+                #-
+            </div>
+
+        </div>
+
+
+        <!-- ==============================
+             OVERALL
+        =============================== -->
+
+        <div class="profile-overall">
+
+            <div>
+
+                <span>
+                    OVERALL
+                </span>
+
+                <strong id="playerOverall">
+                    -
+                </strong>
+
+                <small>
+                    punkty
+                </small>
+
+            </div>
+
+        </div>
+
+
+        <!-- ==============================
+             TIERY
+        =============================== -->
+
+        <div class="profile-tiers">
+
+            <div class="profile-tier-card">
+
+                <div class="profile-tier-icon">
+                    ⚔
+                </div>
+
+                <div class="profile-tier-name">
+                    <strong>
+                        Sword
+                    </strong>
+
+                    <small>
+                        Sword PvP
+                    </small>
+                </div>
+
+                <span
+                    id="playerSword"
+                    class="profile-tier-value"
+                >
+                    -
+                </span>
+
+            </div>
+
+
+            <div class="profile-tier-card">
+
+                <div class="profile-tier-icon">
+                    💎
+                </div>
+
+                <div class="profile-tier-name">
+                    <strong>
+                        Crystal
+                    </strong>
+
+                    <small>
+                        Crystal PvP
+                    </small>
+                </div>
+
+                <span
+                    id="playerCrystal"
+                    class="profile-tier-value"
+                >
+                    -
+                </span>
+
+            </div>
+
+
+            <div class="profile-tier-card">
+
+                <div class="profile-tier-icon">
+                    🧪
+                </div>
+
+                <div class="profile-tier-name">
+                    <strong>
+                        NPot
+                    </strong>
+
+                    <small>
+                        No Pot PvP
+                    </small>
+                </div>
+
+                <span
+                    id="playerNPot"
+                    class="profile-tier-value"
+                >
+                    -
+                </span>
+
+            </div>
+
+
+            <div class="profile-tier-card">
+
+                <div class="profile-tier-icon">
+                    🪓
+                </div>
+
+                <div class="profile-tier-name">
+                    <strong>
+                        Axe
+                    </strong>
+
+                    <small>
+                        Axe PvP
+                    </small>
+                </div>
+
+                <span
+                    id="playerAxe"
+                    class="profile-tier-value"
+                >
+                    -
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <!-- ==============================
+             POWRÓT
+        =============================== -->
+
+        <a
+            href="index.html"
+            class="profile-back-button"
+        >
+            ← Wróć do tierlisty
+        </a>
+
+    </div>
+
+</main>
+
+
+<script src="config.js"></script>
+<script src="admin.js"></script>
+
+</body>
+
+</html>
