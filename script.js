@@ -42,7 +42,7 @@ function renderModeIcon(icon) {
 
 let players = [];
 
-const API_URL = "http://hel1.lvlhost.pl:30000";
+const API_URL = "https://hel1.lvlhost.pl:30000";
 
 
 async function loadPlayers() {
